@@ -2,3 +2,27 @@
     height: 500px;
     width: 500px;
 }
+.img1container {
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-right: 4%;
+    margin-bottom: 0%;
+}
+
+.formcontainer {
+    margin-left: 4%;
+    margin-top: 0%;
+    margin-right: 4%;
+}
+
+.hotelname {
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-right: 4%;
+}
+.hotelabout {
+    margin-left: 4%;
+    margin-top: 1%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+}

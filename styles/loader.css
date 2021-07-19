@@ -1,0 +1,12 @@
+.loader {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 12px solid #f3f3f3;
+    border-top: 12px solid #444444;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -76px 0 0 -76px;
+
+}
