@@ -5,15 +5,49 @@
         <link rel="stylesheet" href="styles/common.css">
         <link rel="stylesheet" href="styles/payment.css">
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
     </head>
     <body>
-        <div>
-            <div id="full">
+        
                 <header>
-                   <a href="index.html"><img class = "logo" src = "assests/images/logo.png"></a> 
-                    <a href = "login.html" target="_blank" class="login">Login</a>   
-                </header>
+                    <div class="header">
+                        <div><a href="index.html"><img class = "logo" src = "assests/images/logo.png"></a></div>
+                        <button type="button" class="btn btn-light" data-toggle="modal" data-target="#loginModal" id="login-button">
+                            LOGIN
+                        </button> 
+                        </div>
+                      <!-- Modal -->
+                      <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="loginInputUsername">Username</label>
+                                            <input type="text" class="form-control" id="loginInputUsername" aria-describedby="usernameHelp" placeholder="Enter Username">
+                                            <label for="loginInputPassword">Password</label>
+                                            <input type="password" class="form-control" id="loginInputPassword" aria-describedby="passwordHelp" placeholder="Enter Password">
+                                        </div>
+                                        <button type="login" class="btn btn-primary">Login</button>
+                                        <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                                    </form>
+                            </div>
+                            <div class="modal-footer"></div>
+                          </div>
+                        </div>
+                      </div>
+                 <header> 
+                
     
                 <div class="container">
                     <div class="container1">
@@ -42,22 +76,54 @@
                             <p><b>Total Amount:</b> Rs. 10000</p>
                         </div>
 
-                        <div>
-                            <a href = "payment.html" id="pay-link">Pay Now</a>
-                        </div>
+                        <div  style="margin-top: 4%;"><a id="pay-link"><button type="button" class="btn btn-success">Pay Now</button></a></div>
                     </div>
                
                         </div>
                        
                     <footer>
-                        <span><a href = "contact.html" target="_blank" id="contactus">Contact Us</a></span>
-                        <span id="copyright"> © 2020 ROOM SEARCH PVT. LTD</span>
-                <span>
-                    <a href = "https://www.facebook.com" target="_blank"><img class ="social-icons" src = "assests/images/facebook.png"  ></a>
-                    <a href = "https://www.instagram.com" target="_blank"><img class ="social-icons" src = "assests/images/instagram.png" ></a>
-                    <a href = "https://www.twitter.com" target="_blank"><img class ="social-icons" src = "assests/images/twitter.png"></a>
-                        </span>
-                       
+                        <div class="footer-style"> 
+                            <span class="a"><button type="button" class="btn btn-info" data-toggle="modal" data-target="#contactModal">
+                       Contact Us
+                     </button></span>
+        
+                                   <span class="copy-right">© 2020 ROOM SEARCH PVT. LTD</span>
+                                   <span ><a href = "https://www.facebook.com" target="_blank"><img class ="socialLogo" src = "assests/images/facebook.png"  ></a>
+                                   <a href = "https://www.instagram.com" target="_blank"><img class ="socialLogo" src = "assests/images/instagram.png" ></a>
+                                   <a href = "https://www.twitter.com" target="_blank"><img class ="socialLogo" src = "assests/images/twitter.png" ></a>
+                                   </span>
+                            </div>
+        
+        
+                             <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                       <div class="modal-dialog" role="document">
+                         <div class="modal-content">
+                           <div class="modal-header">
+                             <h5 class="modal-title" id="exampleModalLabel">Get In Touch</h5>
+                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                               <span aria-hidden="true">&times;</span>
+                             </button>
+                           </div>
+        
+                           <div class="modal-body">
+                               <p>Thank You for reaching out!!!</p>
+                                   <p>Please enter your email we will get back to you</p>
+        
+                                   <form action = "index.html" m ethod="get">
+                                       <input type="email"  required placeholder="Enter your email">
+        
+        
+                                   </form>
+                             </div>
+        
+                             <div class="modal-footer">
+                               <button type="button" class="btn btn-primary">Submit</button>
+                             </div>
+                           </div>
+                         </div>
+                       </div>
+                    </footer>
+                    </div>
                     </footer>
                 </div>
             </body>
