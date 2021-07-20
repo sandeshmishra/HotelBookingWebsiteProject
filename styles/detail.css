@@ -6,27 +6,77 @@ body {
     background-color: #e0e0e0;
     font-family: 'Ubuntu', sans-serif;
 }
-#full{
-    margin-top: 80px;
-    margin-bottom: 80px;
-}
-.hotelImage {
-    height: 500px;
-    width: 500px;
-    margin: 2% 4% 0% 4%;
-}
 
-.form{
-    margin-left: 4%;
-    margin-bottom: 1%;
-}
-#details{
-    margin-left: 4%;
-    margin-right: 4%;
-    margin-top: 1%;
-    margin-bottom: 2%;
+.full{
+    padding-top: 50px;
+    padding-bottom: 50px;
+} 
+  .container{
+    border:1px solid black;
+    display:grid;
+    height:400px;
+    grid-template-columns:70% 30%;
+    margin:2% 1%;
 
-}
-.content{
-    padding-bottom: 3%;
-}
+  }
+  .container1{
+   border-right:1px solid black;
+    display:flex;
+    justify-content:center;
+
+  }
+  .container2{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+
+  }
+  #img{
+    padding:2%;
+  }
+  .hotelImage{
+    height:350px;
+  }
+  .formStyle{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    height:350px;
+    width:100%;
+    margin-left:2%;
+    margin-right:2%;
+  }
+  input{
+    width:60%;
+  }
+  .a{
+    display:flex;
+    justify-content:space-between;
+  }
+  label{
+    padding-left:3%;
+  /*  align-self:flex-end; */
+  }
+  .submitstyle{
+     width:30%;
+    margin-left:25%;
+  }
+  #submit{
+    padding:2px;
+  }
+  .details{
+    display:flex;
+    flex-direction:column;
+    margin: 4%;  
+  }
+  h5{
+    font-family:cursive;
+    margin:2% 0 ;
+  }
+
+  h1{
+      margin:6px auto;
+  }
+  ul{
+      margin-left: 4%;
+  }

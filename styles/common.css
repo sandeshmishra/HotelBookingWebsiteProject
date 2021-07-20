@@ -21,15 +21,15 @@ header {
     left:0;
     width: 100%;
     height:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
 }
 .logo{
     height: 60px;
     width: 60px;
 }
-header >img {
-    height: 60px;
-    width: 60px;
-    }
+
     footer {
         background-color: rosybrown;
         width: 100%;
@@ -37,22 +37,29 @@ header >img {
         position: fixed;
         height: auto;
         top:auto;
+        left:0;
+        display: flex;
+        justify-content:space-between;
+        vertical-align: middle;
+        padding: 1%;
     }
     
     .social-icons {
         height :20px;
         width : 22px;
-        margin-top:15px;
+       
         padding: 2px;
     }
     
     .login {
         position: absolute;
-        top: 15px;
+        
         right: 5px;
         text-decoration: none;
         color: black;
         font-weight: bold;
+        margin: 1%;
+        margin-right: 10px;
     }
     #contactus{
         position: relative;
@@ -66,58 +73,6 @@ header >img {
         margin:0 auto;
         padding: 50px 20px;
     }
-    /* =========================================================
-    a {
-        text-decoration: none;
-        color: black;
-        margin: 1rem;
+    #copyright{
+        font-size: 10px;
     }
-    body {
-        margin: 0;
-        background-color: #e0e0e0;
-        font-family: Ubuntu, sans-serif;
-    }
-    .logo {
-        height: 60px;
-        width: 60px;
-    }
-    .social-icons {
-        height: 20px;
-        width: 22px;
-    }
-    header,
-footer {
-    background-color: rosybrown;
-    position: sticky;
-}
-header {
-    z-index: 2;
-    top: 0;
-}
-header > a[href="index.html"] {
-    margin: 0;
-}
-footer {
-    bottom: 0;
-}
-header > a:last-of-type {
-    vertical-align: middle;
-    margin-left: 92%;
-}
-header > *,
-footer > * {
-    vertical-align: middle;
-    display: inline-block;
-}
-.copyright,
-footer > a:first-child {
-    margin-right: 39%;
-}
-.copyright {
-    font-size: 10px;
-    vertical-align: bottom;
-    margin-bottom: 0.5rem;
-}
-.social-icons-container > a {
-    margin: 0;
-} */
