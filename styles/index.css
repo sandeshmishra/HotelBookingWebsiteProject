@@ -1,65 +1,62 @@
-.city1 {
+.logo {
+    height:60px; 
+    width:60px;
+}
+#full{
+    width : 100%;
+    height: 100%;
+    margin: 0px;
+    position:absolute;
+    top:50px;
+}
+.view-more{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+body {
+
+    width : 100%;
+    height: 100%;
+    margin: 0px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #e0e0e0;
+    font-family: 'Ubuntu', sans-serif;
+    overflow: auto;
+    bottom:100px;
+
+}
+.container{
+    margin:0 15%;
+    text-align: center; 
+}
+.cityImage {
     height: 150px;
     width: 150px;
-    border-radius: 15%;
     
+    padding:4% 4% 4% 4%;
+    border-radius: 25%;
 }
-.city2 {
-    height: 150px;
-    width: 150px;
-    border-radius: 15%;
-}
-.city3 {
-    height: 150px;
-    width: 150px;
-    border-radius: 15%;
-}
-.city4 {
-    height: 150px;
-    width: 150px;
-    border-radius: 15%;
-}
-.search {
-    background: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg') no-repeat center center ;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-     -o-background-size: cover;
-     background-size: cover;
-     text-align: start;
-    
-    height: 450px;
+
+
+#backImage{
+    background-image:url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg');
+    height: 380px;
     width: 100%;
-}
-.cityimage1 {
-    display:inline ;
-    padding-right: 3%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    
-}
-.cityimage2 {
-    display:inline ;
-    padding-left: 3% ;
-    padding-right: 3%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-
-}
-.cityimage3 {
-    display:inline ;
-    padding-left: 3% ;
-    padding-right: 3%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
-.cityimage4 {
-    display:inline ;
-    padding-left: 3% ;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    overflow: hidden;
 }
 
-.maincitydiv {
-    display: flex;
-    justify-content: center;
+#boxStyle {
+     margin: 15% 35%;
+     border-radius: 12px;
+     border:1px solid transparent;
+     background-color: #f1f1f1;
+     padding: 10px;
+     font-size: 16px;
+     width: 30%;
 }

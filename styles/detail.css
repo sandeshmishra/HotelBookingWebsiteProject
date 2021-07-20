@@ -1,28 +1,32 @@
-.radissonblue {
+
+body {
+    width : 100%;
+    height: 100%;
+    margin : 0px;
+    background-color: #e0e0e0;
+    font-family: 'Ubuntu', sans-serif;
+}
+#full{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.hotelImage {
     height: 500px;
     width: 500px;
-}
-.img1container {
-    margin-left: 4%;
-    margin-top: 2%;
-    margin-right: 4%;
-    margin-bottom: 0%;
+    margin: 2% 4% 0% 4%;
 }
 
-.formcontainer {
+.form{
     margin-left: 4%;
-    margin-top: 0%;
-    margin-right: 4%;
+    margin-bottom: 1%;
 }
-
-.hotelname {
+#details{
     margin-left: 4%;
-    margin-top: 2%;
     margin-right: 4%;
-}
-.hotelabout {
-    margin-left: 4%;
     margin-top: 1%;
-    margin-right: 4%;
     margin-bottom: 2%;
+
+}
+.content{
+    padding-bottom: 3%;
 }

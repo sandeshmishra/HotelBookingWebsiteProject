@@ -1,62 +1,50 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head>
-    <link rel="stylesheet" href="D:\projects\Html first project\Hotel_Booking_Website_Starter_Code\styles\common.css">
-    <link rel="stylesheet" href="D:\projects\Html first project\Hotel_Booking_Website_Starter_Code\styles\payment.css">
-     <title>Payment</title>
-</head>
-<body>
-    <div class="maindiv">
-        <header class="header">
-            <a href="D:\projects\Html first project\Hotel_Booking_Website_Starter_Code\index.html">  <img src="D:\projects\Html first project\Hotel_Booking_Website_Starter_Code\assests\images\logo.png" alt="logo" class="logo1">
-                </a>
-           <a href="D:\projects\Html first project\Hotel_Booking_Website_Starter_Code\login.html" target="_blank">Login</a>
-        </header>
+    <head>
+        <title>payment</title>
+        <link rel="stylesheet" href="styles/common.css">
+        <link rel="stylesheet" href="styles/payment.css">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 
-
-
-
-
+    </head>
+    <body>
         <div>
-            <div class="imgcontainer">
-                <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" class="img1"><br>
-                
-                <h2>Radisson Blu Hotel</h2>
-                #38 of 1,289 hotels in New Delhi<br>
-                <br>
-                National Highway 8, New Delhi 110017 India
-            </div>
-            <div class="customerinfo">
-                <p style="font-weight: bold; display: inline;">Name: </p> John Doe<br>
-                <br>
-                <p style="font-weight: bold; display: inline">Number of Adults: </p>2<br>
-                <br>
-                <p style="font-weight: bold; display: inline">Check-in Date: </p>06/06/2020<br>
-                <br>
-                <p style="font-weight: bold; display: inline">Check-out Date: </p>08/06/2020<br>
-            </div>
-            <div class="total">
-                <p style="font-weight: bold; display: inline">Tarrif Breakdown: </p>Rs. 1000 x 2 Adults x 5 Nights <br>
-                <br>
-                <p style="font-weight: bold; display: inline">total Amount: </p>Rs. 10000<br>
-            </div>
-             <a href="D:\projects\Html first project\Hotel_Booking_Website_Starter_Code\payment.html">Pay Now</a>
-        </div>
+            <div id="full">
+                <header>
+                   <a href="index.html"><img class = "logo" src = "assests/images/logo.png"></a> 
+                    <a href = "login.html" target="_blank" class="login">Login</a>   
+                </header>
+    
+            <div>
+                <div class="info"><img class = "hotelImage" src = "https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
 
 
-
-
-
-
-
-        <footer class="footer">
-            <a href="D:\projects\Html first project\Hotel_Booking_Website_Starter_Code\contact.html">Contact Us</a><br>
-          <a href="http://www.facebook.com/" target="_blank"><img src="D:\projects\Html first project\Hotel_Booking_Website_Starter_Code\assests\images\facebook.png" class="social1"></a>
-          <a href="https://www.instagram.com/" target="_blank"><img src="D:\projects\Html first project\Hotel_Booking_Website_Starter_Code\assests\images\instagram.png"  class="social2"></a>
-          <a href="https://www.twitter.com/" target="_blank"><img src="D:\projects\Html first project\Hotel_Booking_Website_Starter_Code\assests\images\twitter.png"  class="social3"></a>
-           <br>
-           ©️ 2020 ROOM SEARCH PVT. LTD.
-        </footer>
-    </div>
-</body>
-</html>
+                    <h3>Radisson Blu Hotel</h3>
+                    <p>#38 of 1,289 hotels in New Delhi</p>
+                    <p>National Highway 8, New Delhi 110017</p></div>
+    
+                    <div class = "customer">
+                    <p><b>Name:</b> John Doe</p>
+                    <p><b>Number of Adults:</b> 2</p>
+                    <p><b>Check-in Date:</b> 06/06/2020</p>
+                    <p><b>Check-out Date:</b> 08/06/2020</p>
+                 </div>
+                    <div class="total">
+                        <p><b>Tariff Breakdown:</b> Rs. 1000 x 2 Adults x 5 Nights</p>
+                        <p><b>Total Amount:</b> Rs. 10000</p>
+                        </div>
+                        <div><a href = "payment.html" id="pay-link">Pay Now</a></div>
+                    </div>
+                    <footer>
+                        <span><a href = "contact.html" target="_blank" id="contactus">Contact Us</a></span>
+                        <span style="padding-left: 85%;">
+                        <a href = "https://www.facebook.com" target="_blank"><img class ="social-icons" src = "assests/images/facebook.png"  ></a>
+                        <a href = "https://www.instagram.com" target="_blank"><img class ="social-icons" src = "assests/images/instagram.png" ></a>
+                        <a href = "https://www.twitter.com" target="_blank"><img class ="social-icons" src = "assests/images/twitter.png"></a>
+                        </span>
+                        <span style = "padding-left: 40%;"> © 2020 ROOM SEARCH PVT. LTD</span>
+                    </footer>
+                </div>
+            </body>
+        </html> 
+            

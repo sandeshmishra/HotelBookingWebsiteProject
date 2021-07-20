@@ -1,60 +1,47 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet" type="text/css"  href="D:\projects\Html first project\Hotel_Booking_Website_Starter_Code\styles\index.css">
-    <link rel="stylesheet" href="D:\projects\Html first project\Hotel_Booking_Website_Starter_Code\styles\common.css">
-     <title>index</title> 
+  <head>
+    <title>index</title>
+    <link rel="stylesheet" href="styles/index.css"> 
+    <link rel="stylesheet" href="styles/common.css">  
+    
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> 
+    </style>
 </head>
+
 <body>
-    <div class="maindiv">
-        <header class="header">
-            <img src="D:\projects\Html first project\Hotel_Booking_Website_Starter_Code\assests\images\logo.png" alt="logo" class="logo1">
-           <a href="D:\projects\Html first project\Hotel_Booking_Website_Starter_Code\login.html" target="_blank">Login</a>
-        </header>
+<div id = "full">
+<header>
+   <a href="index.html"><img class = "logo" src = "assests/images/logo.png"></a> 
+    <a href = "login.html" target="_blank" class="login">Login</a>
 
-
-
-        <div>
-            <div class="search">
-            <input type="text" placeholder="city" class="searchbar"><br>
-            </div>
-         
-         <div class="maincitydiv">
-              <div class="cityimage1" > 
-                <a href="D:\projects\Html first project\Hotel_Booking_Website_Starter_Code\list.html"><img  src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" class="city1"></a>
-              </div>
-
-              <div class="cityimage2">
-              <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg"   class="city2">
-              </div>
-
-             <div class="cityimage3">
-              <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" class="city3">
-              </div>
-              <div class="cityimage4">
-              <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" class="city4">
-               </div>
-
-         </div>
-
-            <a href="D:\projects\Html first project\Hotel_Booking_Website_Starter_Code\index.html" class="city1">View more>></a>
-
-
-        </div>
-
-
-
-
-
-
-        <footer class="footer">
-            <a href="D:\projects\Html first project\Hotel_Booking_Website_Starter_Code\contact.html">Contact Us</a><br>
-          <a href="http://www.facebook.com/" target="_blank"><img src="D:\projects\Html first project\Hotel_Booking_Website_Starter_Code\assests\images\facebook.png" class="social1"></a>
-          <a href="https://www.instagram.com/" target="_blank"><img src="D:\projects\Html first project\Hotel_Booking_Website_Starter_Code\assests\images\instagram.png"  class="social2"></a>
-          <a href="https://www.twitter.com/" target="_blank"><img src="D:\projects\Html first project\Hotel_Booking_Website_Starter_Code\assests\images\twitter.png"  class="social3"></a>
-           <br>
-           ©️ 2020 ROOM SEARCH PVT. LTD.
-        </footer>
+</header>
+<div>
+    <div id = "backImage" >
+        <input id = "boxStyle" type = "text" placeholder = "City">
     </div>
+    
+
+    <div style="margin-left: 12%; margin-right: 12%;">
+    <div class="container">
+        <a href = "list.html"><img class = "cityImage" src = "https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg"></a>
+        <img class = "cityImage" src = "https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" alt = "Goa">
+        <img class = "cityImage" src = "https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" alt = "Hyderabad">
+        <img class = "cityImage" src = "https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" alt = "Kolkata">
+    </div>
+    <div class="view-more" ><a href="">View More >></a></div>
+</div>
+
+<footer>
+<span><a href = "contact.html" target="_blank" id="contactus">Contact Us</a></span>
+<span style="padding-left: 85%;">
+<a href = "https://www.facebook.com" target="_blank"><img class ="social-icons" src = "assests/images/facebook.png"  ></a>
+<a href = "https://www.instagram.com" target="_blank"><img class ="social-icons" src = "assests/images/instagram.png" ></a>
+<a href = "https://www.twitter.com" target="_blank"><img class ="social-icons" src = "assests/images/twitter.png"></a>
+</span>
+<span style = "padding-left: 40%;"> © 2020 ROOM SEARCH PVT. LTD</span>
+</footer>
+
+</div>
 </body>
 </html>

@@ -1,76 +1,68 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet" href="D:\projects\Html first project\Hotel_Booking_Website_Starter_Code\styles\common.css">
-    <link rel="stylesheet" href="D:\projects\Html first project\Hotel_Booking_Website_Starter_Code\styles\detail.css">
-     <title>Detail</title>
-</head>
-<body>
-    <div class="maindiv">
-        <header class="header">
-            <a href="D:\projects\Html first project\Hotel_Booking_Website_Starter_Code\index.html">  <img src="D:\projects\Html first project\Hotel_Booking_Website_Starter_Code\assests\images\logo.png" alt="logo" class="logo1">
-                </a>
-           <a href="D:\projects\Html first project\Hotel_Booking_Website_Starter_Code\login.html" target="_blank">Login</a>
-        </header>
+   <head>
+        <title>detail</title>
+        <link rel="stylesheet" href="styles/common.css">
+        <link rel="stylesheet" href="styles/detail.css">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <div>
+    <div id="full">
+        <header>
+            <a href="index.html"><img class = "logo" src = "assests/images/logo.png"></a> 
+             <a href = "login.html" target="_blank" class="login">Login</a>
+         
+         </header>
+        <div class="content">
+            <img class = "hotelImage" src = "https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
 
+            <form action="payment.html" class="form">
 
+                <label for="adults">Adults:</label>
+                <input type = "number" id = "adults" name = "number" min = "1" required><br>
 
+                <label for= "name">Name:</label>
+                <input type = "text" id ="name" name = "name" required><br>
 
-        <div>
-            
-            <div class="img1container">
-                <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" class="radissonblue">
-             </div>
-            <div class="formcontainer">
-                <form action="payment.html">
-                    <label>Adults:</label>
-                    <input type="number" name="adult" id="adult" min="1" size="10px" required><br>
-                    <label>Name:</label>
-                    <input type="text" name="fname" required><br>
-                    <label>From Date:</label>
-                    <input type="date" id="date" required><br>
-                    <label>To Date:</label>
-                    <input type="date" id="date2" required><br>
-                    <label>Total:</label>
-                    <input type="number" id="total" disabled><br>
-                    <button onclick="location.href='payment.html'">Book Now</button>
-                </form>
-            </div>
-            <div class="hotelname">
-                <h2>Radisson Blu Hotel</h2>
-                RATING<br>
-                <br>
-                5 Star<br>
-                <br>
-            </div>
-            <div class="hotelabout">
-            AMENITIES
+                <label for = "from">From Date:</label>
+                <input type = "date" id = "from" name="from" required><br>
+
+                <label for = "toDate">To Date:</label>
+                <input type = "date" id = "toDate" name ="toDate" required><br>
+                <label for = "total">Total</label>
+                <input type ="text" id = "total" name = "total" readonly="readonly"><br>
+
+                <input type = "submit" value = "Book Now">
+            </form>
+            <div id = details>
+            <h2>Radisson Blu Hotel</h2>
+            <p>RATING</p>
+            <P>5 Star</P>
+            <P>AMENITIES</P>
             <ul>
-                <li>Room service</li>
+                <li>Room Service</li>
                 <li>Restaurant</li>
-                <li>Bussiness center</li>
+                <li>Business center</li>
                 <li>Fitness center</li>
                 <li>Pool</li>
             </ul>
-            <h5>DESCRIPTION</h5>
-            Lorem ipsum dolor sit amet consectetur elit. Deliniti, illum totam magni voluptatibus libero delectus nescuient hie vel! aperiam esse asperiors culpa, natus quam quis eum ex doloremque
-            doloribus architecto!
+            <div>
+                <p><b>DESCRIPTION</b></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.um dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidi.</p>
             </div>
+           
+    
         </div>
-
-
-
-
-
-
-
-        <footer class="footer">
-            <a href="D:\projects\Html first project\Hotel_Booking_Website_Starter_Code\contact.html">Contact Us</a><br>
-          <a href="http://www.facebook.com/" target="_blank"><img src="D:\projects\Html first project\Hotel_Booking_Website_Starter_Code\assests\images\facebook.png" class="social1"></a>
-          <a href="https://www.instagram.com/" target="_blank"><img src="D:\projects\Html first project\Hotel_Booking_Website_Starter_Code\assests\images\instagram.png"  class="social2"></a>
-          <a href="https://www.twitter.com/" target="_blank"><img src="D:\projects\Html first project\Hotel_Booking_Website_Starter_Code\assests\images\twitter.png"  class="social3"></a>
-           <br>
-           ©️ 2020 ROOM SEARCH PVT. LTD.
+       
+        <footer>
+            <span><a href = "contact.html" target="_blank" id="contactus">Contact Us</a></span>
+            <span style="padding-left: 85%;">
+            <a href = "https://www.facebook.com" target="_blank"><img class ="social-icons" src = "assests/images/facebook.png"  ></a>
+            <a href = "https://www.instagram.com" target="_blank"><img class ="social-icons" src = "assests/images/instagram.png" ></a>
+            <a href = "https://www.twitter.com" target="_blank"><img class ="social-icons" src = "assests/images/twitter.png"></a>
+            </span>
+            <span style = "padding-left: 40%;"> © 2020 ROOM SEARCH PVT. LTD</span>
         </footer>
     </div>
 </body>
