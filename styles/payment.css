@@ -1,95 +1,33 @@
-.content{
+#marginDesc{
+  margin: 2%;
+
+}
+.imgDiv{
+  background-color: rgb(132,136,139); 
+  margin: 7% auto; 
+  margin-bottom: 2%;
+  flex-direction: row;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  overflow-y: auto;
+  width: 60%;
+  font-family: 'Ubuntu',sans-serif;
+  height: 270px;
 }
 .mainDiv{
+  margin-bottom: 60px; 
+  flex-direction: column;
   display: flex;
-  flex-direction: row;
-  width: auto;
-  height: auto;
-  background-color: rgb(132, 136, 139);
-  margin-bottom: 4%;
-  margin-top: 4%;
+  background-color: #e0e0e0; 
 
 }
-.content>.mainDiv>.image>img{
-  height: 200px;
-  width: 250px;
-  max-height: 300px;
-  max-width: 270px;
-}
-.content>.mainDiv>.text{
-  padding-left:4% ;
-}
-.mainDiv2{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  align-content: center;
-  border: 1px solid black;
-  border-radius: 5px;
-  width: 95%;
+.descSty{
+  display: flex; 
+  font-family: cursive; 
+  background-color:rosybrown; 
+  border:1px solid black; 
+  border-radius: 5px; 
+  margin-right: 2%; 
   margin-left: 2%;
-  margin-right: 2%;
-  background-color: rosybrown;
-  margin-bottom: 4%;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-content: center;
 }
-@media screen and (max-width: 576px){
-  .content{
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: center;
-      overflow-y: auto;
-  }
-  .mainDiv{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 90%;
-      height: auto;
-      background-color: rgb(132, 136, 139);
-      margin-bottom: 4%;
-      margin-top: 4%;
-  }
-  .content>.mainDiv>.text{
-      padding:4% ;
-  }
-  .mainDiv2{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: flex-start;
-      align-content: center;
-      border: 1px solid black;
-      border-radius: 5px;
-      width: 90%;
-      margin-left: 2%;
-      margin-right: 2%;
-      background-color: rosybrown;
-      margin-bottom: 4%;
-  }
-  .pay{
-      align-self: center;
-      padding:2%;
-  }
-  .image, .detailDiv, .amount-details{
-      padding: 2%;
-  }
-  @media screen and (min-width: 576px) and (max-width:768px){
-    .mainDiv{
-        display: flex;
-        flex-direction: row;
-        width: 80%;
-        height: auto;
-        background-color: rgb(132, 136, 139);
-        margin-bottom: 4%;
-
-    }
-}
-} 

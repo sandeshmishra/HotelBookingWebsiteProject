@@ -1,76 +1,77 @@
-body{
-    width: 100%;
-  height:100%;
-  margin:0;
-  background-color: #e0e0e0;
-  font-family: 'Ubuntu', sans-serif;
-}
-.wrapper{
-  height:100%;
-  width:100%;
-}
-.content{
+html,body{
   height: 100%;
-  overflow-y: auto;
-}
-.footer{
   width: 100%;
-  background-color: rosybrown;
-  position: fixed;
-  bottom: 0px;
-  /* z-index:+1; */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 0px;
-  height:64px;
+  margin: 0%;
+  background-color: #e0e0e0;
+  font-family: 'Ubuntu',sans-serif;
+  overflow-x: hidden;
+}
+/* changing the size of logo in header div*/
+#logo{
+  height: 60px;
+  width: 60px;
+  margin: auto;
+  margin-left: 2%;
+}
+/* changing the size of social media logo in footer div*/
+.social-icons{
+  height: 20px;
+  width: 22px;
+  text-decoration: none
 }
 .header{
-    width: 100%;
-  background-color: rosybrown;
-  position: sticky;
-  top: 0;
-  z-index:+1;
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  background-color:rosybrown;
+  position: fixed;
+  width:100%;
+  top: 0;
+  z-index: 80;
+}
+footer{
+  display: flex;
+  background-color: rosybrown;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 60px;
   align-items: center;
 }
-.header>#h1>img{
-    height: 60px;
-    width:60px;
+.loginStyle{
+  right: 0%;
+  top: 0px;
+  margin-top: 1%;
+  margin-right: 2%;
+  text-decoration: none;
+  position: absolute;
+  color: black;
+  font-family: 'Ubuntu',sans-serif;
+}
+#social{
+  position: absolute;
+  right:1%;
+  align-items: center;
+  bottom:25%;
+  margin-right: 1%;
+}
+.contactStyle{
+  bottom: 25%;
+  margin-left: 4%;
+  text-decoration: none;
+  position: absolute;
+  color: black;
+}
+.copyRight{
+  margin-left: 45%;
+font-size: 10px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+@media only screen and (max-width:500px){
+  body{
+      display: flex;
+      flex-direction: column;
   }
-  .header>#h1>a>img{
-    height: 60px;
-    width:60px;
-  }
-  .footer>.social-media>span>a>img{
-    height: 20px;
-    width: 22px;
-  }
-  a{
-    text-decoration: none;
-    color: black;
-  }
-  .header>#h1{
-    margin-left: 1%;
-  }
-  .header>#h2{
-    margin-right:2%;
-  }
-  .footer>.social-media{
-    margin-right: 2%;
-  }
-  .footer>.contact-us{
-    margin-left:2%;
-  }
-  .footer>.copyright>span{
-    font-size: 10px;
-  }
-  .loaderDiv{
-    position: relative;
-    display: none;
-  }
-  .loaderDiv>iframe{
-    width: 100%;
-    align-self: center;
-  }
+}  
